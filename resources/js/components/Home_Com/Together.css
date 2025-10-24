@@ -1,0 +1,207 @@
+.Together{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.Together img{
+    width: 625px;
+    border-radius: 0 50px 0 50px;
+}
+
+.desc_together{
+    margin-top: 5px;
+    width: 550px;
+    line-height: 30px;
+    font-size: 21px;
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+.Together h1{
+font-weight: 600;
+font-family: "Crimson Text", serif;
+font-size: 55px;
+}
+.cover_icon_card{
+    font-family: Poppins;
+width: 70px;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid #407ec5;
+border-radius: 10px;
+}
+.child_text_card_contact{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.child_text_card_contact p:nth-child(2){
+    font-size: 19px;
+    font-family: Poppins;
+
+}
+.child_text_card_contact p:nth-child(1){
+    font-size: 22px;
+    font-family: Poppins;
+
+}
+.card_contact{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.icon_card_contact{
+    font-size: 37px;
+    font-weight: 600;
+    color: #407ec5;
+}
+
+.icon_socail_media{
+    font-size: 35px;
+    font-weight: 500;
+    color: #407ec5;
+}
+
+
+
+.container_together{
+    position: relative;
+    overflow: hidden;
+}
+.container_together:hover h1{
+    transform: translateY(0);
+    overflow: visible;
+}
+.text_together{
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(+100%);
+    transition: 1.2s all ease-in-out;
+}
+@media screen  and (max-width:1300px){
+.Together img{
+    width: 525px;
+    border-radius: 0 50px 0 50px;
+}
+.desc_together{
+    margin-top: 5px;
+    width: 460px;
+    line-height: 30px;
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+
+}
+@media screen  and (max-width:1050px){
+    .Together{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+    flex-direction: column;
+    gap: 40px;
+}
+.Together img{
+    max-width: 525px;
+    width: 100%;
+    border-radius: 50px 0px 50px 0px;
+}
+.desc_together{
+      font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    width: 550px;
+    line-height: 30px;
+    /* font-size: 19px; */
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+.Together h1{
+text-align: center;
+font-size: 55px;
+}
+ .container_card_contact{
+    padding-left: 75px;
+} 
+}
+@media screen  and (max-width:600px){
+    .desc_together{
+      font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    max-width: 550px;
+    width: 95%;
+    line-height: 30px;
+     font-size: 19px; 
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+ .container_card_contact{
+    padding-left: 3%;
+}
+.Together h1{
+font-weight: 600;
+font-family: "Crimson Text", serif;
+font-size: 49px;
+}
+
+.child_text_card_contact p:nth-child(2){
+    font-size: 16px;
+    font-family: Poppins;
+
+}
+.child_text_card_contact p:nth-child(1){
+    font-size: 20px;
+    font-family: Poppins;
+
+}
+.card_contact{
+    gap: 14px;
+}
+.cover_icon_card{
+width: 60px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid #407ec5;
+border-radius: 10px;
+}
+.icon_card_contact{
+    font-size: 31px;
+}
+}
+@media screen  and (max-width:400px){
+    .container_card_contact{
+    padding-left: 1%;
+}
+.child_text_card_contact p:nth-child(2){
+    font-size: 14px;
+    font-family: Poppins;
+
+}
+.child_text_card_contact p:nth-child(1){
+    font-size: 18px;
+    font-family: Poppins;
+
+}
+.Together h1{
+text-align: center;
+font-size: 38px;
+}
+}

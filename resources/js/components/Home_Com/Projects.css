@@ -1,0 +1,241 @@
+.section_Project h1{
+    font-weight: 600;
+    font-size: 55px;
+    font-family: "Aref Ruqaa Ink", serif;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.githubComment{
+    display: none;
+}
+.section_Project_descp{
+    font-size: 22px;
+    font-family: Poppins;
+    color: gray;
+    text-align: center;
+    padding: 0 10px;
+}
+.Card_prject{
+width: 400px;
+border-radius: 0 20px 20px 20px;  
+padding-bottom: 50px;
+border: 1px solid #33333348;
+outline: none;
+box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+position: relative;
+    overflow: hidden;
+}
+.image_project{
+    width: 100%;
+    border-radius: 0 20px 0px 0px;
+    height: 224px;
+    object-fit: cover;
+}
+.Card_prject h3{
+    margin: 8px 0 5px 15px;
+    font-size: 23px;
+    font-weight: 500;
+    font-weight: 800;
+    color: #407ec5; 
+font-family: "Aref Ruqaa Ink", serif;
+}
+.desc_card_project{
+    width: 100%;
+    padding: 0 7px 0 15px;
+    font-size: 16px;
+    font-family: Poppins;
+    
+}
+.Card_prject p{
+    width: 100%;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: Poppins; 
+    
+}
+.Card_prject p a{
+    text-decoration: none;
+}
+.container_button_card_project{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap:30px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.Card_prject button:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;  
+    font-family: Poppins; 
+     /* color: #407ec5;
+    border: 2px solid #407ec5; 
+    background: none; */
+ /*    color: gray; */
+    border: none; 
+     
+    outline: none;
+    padding: 6px 0;
+    border-radius: 6px;
+    width: 130px;
+    cursor: pointer;
+}
+.Card_prject a .watchvedio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 18px;  
+    font-family: Poppins; 
+     color:white;
+    border: none; 
+    background:linear-gradient(to right ,#1CA7EC , #1F2F98);
+    outline: none;
+    padding: 6px 0;
+    border-radius: 6px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.countainer-comments{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: translateY(-100%);
+    transition: 1.2s all ease-in-out;
+   /*  overflow-y: visible; */
+}
+.countainer-comments-tow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 22;
+    transform: translateY(0);
+    transition: 1.2s all ease-in-out;
+}
+.father_comment{
+    background: white;
+    font-family: Poppins;
+   /*  width: 434px; */
+   width: 100%;
+   height: 100%;
+border-radius: 0 20px 20px 20px;
+padding: 10px 0;
+}
+.Nav_comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    color: black;
+}
+.Nav_comment h4{
+    font-weight: 500;
+}
+.comments{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0 15px 15px 15px;
+  
+}
+.img1{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.My_Acocount{
+    font-size:20px;
+    font-weight: 500;
+    font-family: "Crimson Text", serif;
+}
+
+@media screen  and (max-width:600px){
+.section_Project h1{
+    font-size: 45px;
+      margin-bottom: 15px;
+}
+.section_Project_descp{
+    font-size: 20px;
+}
+}
+@media screen  and (max-width:450px){
+.section_Project h1{
+    font-size: 32px;
+      margin-bottom: 10px;
+}
+.section_Project_descp{
+    font-size: 16px;
+}
+}
+@media screen  and (max-width:455px){
+    .Card_prject h3{
+    margin: 8px 0 5px 15px;
+    font-size: 21px;
+}
+.desc_card_project{
+    width: 100%;
+    padding: 0 7px 0 15px;
+    font-size: 14px;
+    font-family: Poppins;
+    
+}
+ .Card_prject p{
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+    font-family: Poppins; 
+    
+} 
+ .image_project{
+    height: 168px;
+} 
+ .Card_prject{
+width: 300px;
+padding-bottom: 30px;
+}
+.button_github_project{
+    display: none;
+}
+.githubComment{
+    display: block;
+}
+.Card_prject button:nth-child(1){
+    font-size: 16px;  
+    padding: 8px 0;
+    height: max-content;
+    border-radius: 6px;
+    width: 110px;
+   
+}
+.Card_prject a .watchvedio{
+    
+    font-size: 16px;  
+    font-family: Poppins; 
+     color:white;
+    border: none; 
+    background:linear-gradient(to right ,#1CA7EC , #1F2F98);
+    outline: none;
+    padding: 6px 0;
+    border-radius: 6px;
+    width: 110px;
+   
+}
+
+}

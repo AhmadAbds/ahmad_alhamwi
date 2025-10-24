@@ -1,0 +1,22 @@
+.adress_achie{
+     font-weight: 600;
+    font-size: 55px;
+    font-family: "Aref Ruqaa Ink", serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.achiev_img{
+      width: 100%;
+        max-height: max-content;
+}
+@media screen  and (max-width:600px){
+.adress_achie{
+    font-size: 45px;
+}
+}
+@media screen  and (max-width:450px){
+.adress_achie{
+    font-size: 32px;
+}
+}
+/* responsive h1 */

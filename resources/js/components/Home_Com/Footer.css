@@ -1,0 +1,63 @@
+.Footer{
+    display: grid;
+    gap: 65px;
+}
+.Footer .endfooter{
+    width: 100%;
+height: 84px;
+top: 494px;
+left: 740px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: 0.03em;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+margin: auto;
+/* color: #0B1B32; */
+border-top: 2px solid #407ec5;
+}
+/* font-family: "Edu AU VIC WA NT Pre", cursive; */
+.Footer .imagesfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  10%;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+.Footer .imagesfooter img{
+   margin: auto;
+}
+
+@media screen  and (max-width:800px){
+.Footer{gap: 50px;margin-top: 45px;}
+}
+@media screen  and (max-width:700px){
+.Footer{gap: 40px;}
+.Footer .endfooter{font-size: 19px;}
+}
+@media screen  and (max-width:460px){
+.Footer{gap: 20px;}
+.Footer .endfooter{font-size: 16px;}
+}
+@media screen  and (max-width:450px){
+.Footer{margin-top: 25px;}
+}
+@media screen  and (max-width:377px){
+    .Footer .imagesfooter img{
+        width: 100px;
+        height: 100px;
+    }
+    .Footer .endfooter{font-size: 13px;}
+}
+
+   
+   
+  

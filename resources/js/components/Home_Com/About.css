@@ -1,0 +1,85 @@
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+    gap: 80px;
+}
+.About .AboutText .lorem{
+    max-width: 750px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    font-family: Poppins;
+    letter-spacing: 0.03em;
+    margin-bottom: 15px;
+}
+.About .profile_About .Cardimg_About{
+    position: relative;
+    width: 538px;
+    height: 538px;
+    border-radius: 50%;
+    border: 10px solid white;
+    outline: 2px solid whitesmoke;
+}
+
+.About .AboutText h1{
+font-family: "Crimson Text", serif;
+font-size: 65px;
+font-weight: 600;
+line-height: 98px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.About .AboutText h2{
+    font-family: "Crimson Text", serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-bottom: 15px;
+}
+
+@media screen  and (max-width:1275px){
+    .About .profile_About .Cardimg_About{
+        width: 460px;
+        height: 440px;
+        }
+    }
+@media screen  and (max-width:1050px){
+     .About{
+            flex-direction: column-reverse;
+            gap: 30px;
+            padding: 0 5%;
+        }
+        
+        .About .profile_About .Cardimg_About{
+        max-width: 460px;
+        width: 100%;
+        margin: auto;
+        max-height: max-content;
+        object-fit: cover;
+        }
+        
+        .About .AboutText h1{
+        text-align: center;
+        }
+        .About .AboutText .lorem{
+    text-align: center;
+}
+       
+    }
+    @media screen  and (max-width:550px){
+         .About{
+            padding: 0 3%;
+        }
+        .About .AboutText h1{
+        font-size: 55px;
+        }
+        .About .AboutText .lorem{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+  
+}

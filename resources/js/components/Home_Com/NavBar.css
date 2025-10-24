@@ -1,0 +1,99 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /*  width: 100%; */
+    padding: 12px 2.4%;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", serif;
+}
+.logo{
+    font-size: 26px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.nav ul a{
+    text-decoration: none;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* color: #5B99C2; */
+}
+.iconNavbar{
+    font-size: 18px;
+    
+}
+.nav_countainer_butttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+nav  .button_cv{
+width: 130px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+  
+  border: 1px solid gray; 
+   cursor: pointer;
+    outline: none;
+}
+.trigger{
+    display: none;
+}
+@media screen and (max-width:1062px) {
+    .nav ul{
+    gap: 10px;
+}
+   .nav .menuli{
+    font-size: 18px;
+}
+.nav .iconNavbar{
+    display: none;
+}
+ 
+}
+@media screen and (max-width:786px) {
+    nav .ul{
+        display: none;
+    }
+    nav .key{
+        display: none;
+    }
+    .trigger{
+    display: block;
+}
+}
+@media screen and (max-width:385px) {
+    .button_mode{
+        display: none;
+    }
+    .logo{
+    font-size: 25px;
+}
+nav  .button_cv{
+display: none;
+}
+}
+ /*  background-color: #83A6CE; */
+   /* background-color: #407ec5; */
+   /* background-color: #2765ab; */
+  /*  background: linear-gradient(to right ,#1CA7EC , #1F2F98); */
+  /*  background-color: rgb(14 165 233); 
+  /* color:  rgb(234 179 8);
+    color: goldenrod; 
+    background-color: rgb(14 165 233);
+  */
