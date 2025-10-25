@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "vercel-build": "php artisan migrate --force"
     },
     "devDependencies": {
         "@types/node": "^24.5.2",
