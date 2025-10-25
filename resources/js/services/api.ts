@@ -2,7 +2,7 @@ import { AboutData, AboutFormData, AchievData, AchievFormData, CategoryData, Cat
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://ahmad-alhamwi.vercel.app/api',
+  baseURL: 'https://ahmad-alhamwi.vercel.app',
   withCredentials: true,
   headers: {
     'Accept': 'application/json',
