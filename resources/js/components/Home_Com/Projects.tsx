@@ -188,7 +188,7 @@ function Projects() {
                   </a>
                 </p>
                 <div className='container_button_card_project'>
-                  <Button  variant={"secondary"} onClick={() => toggleShow(originalIndex)}>
+                  <Button  className='hover:bg-slate-800 hover:text-white' variant={"secondary"} onClick={() => toggleShow(originalIndex)}>
                     Details
                     <MdKeyboardArrowDown style={{fontSize: "25px"}} />
                   </Button>
@@ -198,8 +198,8 @@ function Projects() {
                       <MdSlowMotionVideo style={{fontSize: "20px"}}/>
                     </button>
                   </a>
-                  <Button className='button_github_project' size={"sm"} variant={"outline"}>
-                    <a target='_blank' href={project.github}>
+                  <Button className='button_github_project' id='github_front_card' size={"sm"} variant={"outline"}>
+                    <a  target='_blank' href={project.github}>
                       <BsGithub/>
                     </a>
                   </Button>
@@ -223,7 +223,7 @@ function Projects() {
                         <div className='My_Acocount' style={{color: "black"}}>Ahmad Alhamwi</div>
                         <div  className='text-sm  flex  justify-between gap-14 items-center'>
                          <span style={{color: "rgba(0, 0, 0, 0.6)"}}> {project.created_at}</span>
-                        <Button className='githubComment' size={"sm"} variant={"outline"}>
+                        <Button className='githubComment' id='github_back_card' size={"sm"} variant={"outline"}>
                     <a className='' target='_blank' href={project.github}>
                       <BsGithub/>
                     </a>

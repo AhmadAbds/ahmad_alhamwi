@@ -91,7 +91,7 @@ const Skills = () => {
               </div>
               
               {/* ScrollArea منفصل لكل فئة */}
-              <ScrollArea className="h-[434px] w-full rounded-md border border-gray-300  shadow-xl cursor-grabs">
+              <ScrollArea className="h-[425px] w-full rounded-md border border-gray-300  shadow-xl cursor-grabs">
                 <div className="skills-container grid gap-4 p-4">
                   {categorySkills.map((skill) => (
                     <div key={skill.id} className="p-3 border rounded-lg shadow-sm">

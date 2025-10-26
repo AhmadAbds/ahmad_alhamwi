@@ -6,8 +6,12 @@
     text-align: center;
     
 }
+
 .githubComment{
     display: none;
+}
+#github_back_card{
+display: none;
 }
 .section_Project_descp{
     font-size: 22px;
@@ -210,11 +214,17 @@ padding: 10px 0;
 width: 300px;
 padding-bottom: 30px;
 }
-.button_github_project{
-    display: none;
+#github_front_card{
+    display: none; 
 }
-.githubComment{
+ .button_github_project{
+    display: none;
+} 
+ .githubComment{
     display: block;
+} 
+#github_back_card{
+display: block;
 }
 .Card_prject button:nth-child(1){
     font-size: 16px;  
